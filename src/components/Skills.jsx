@@ -1,5 +1,10 @@
 import { TriangleRightIcon } from "@radix-ui/react-icons";
-import { SiAdobeillustrator, SiCanva } from "react-icons/si";
+import {
+  SiAdobeillustrator,
+  SiCanva,
+  SiAdobephotoshop,
+  SiAdobelightroomclassic,
+} from "react-icons/si";
 import { IoLogoFigma } from "react-icons/io5";
 
 const Skills = () => {
@@ -14,6 +19,8 @@ const Skills = () => {
 
         <div className="w-full flex items-center justify-center mt-10 gap-5">
           <SiAdobeillustrator className="text-ascent w-14 h-14" />
+          <SiAdobephotoshop className="text-ascent w-14 h-14" />
+          <SiAdobelightroomclassic className="text-ascent w-14 h-14" />
           <SiCanva className="text-ascent w-14 h-14" />
           <IoLogoFigma className="text-ascent w-14 h-14" />
         </div>
