@@ -1,5 +1,5 @@
 import { ArrowRightIcon, TriangleRightIcon } from "@radix-ui/react-icons";
-import { Post1, Post2, Post3, Post4 } from "../utils";
+import { Post13, Post14, Post16, Post22 } from "../utils";
 import { useNavigate } from "react-router-dom";
 
 const Posts = () => {
@@ -16,22 +16,22 @@ const Posts = () => {
         </div>
         <div className="mt-5 grid grid-cols-2 gap-4">
           <img
-            src={Post1}
+            src={Post16}
             alt="Logo 1"
             className="w-full h-auto object-cover rounded-lg"
           />
           <img
-            src={Post2}
+            src={Post14}
             alt="Logo 2"
             className="w-full h-auto object-cover rounded-lg"
           />
           <img
-            src={Post3}
+            src={Post22}
             alt="Logo 3"
             className="w-full h-auto object-cover rounded-lg"
           />
           <img
-            src={Post4}
+            src={Post13}
             alt="Logo 4"
             className="w-full h-auto object-cover rounded-lg"
           />

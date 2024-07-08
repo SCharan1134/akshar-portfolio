@@ -1,5 +1,5 @@
 import { ArrowRightIcon, TriangleRightIcon } from "@radix-ui/react-icons";
-import { Logo1, Logo2, Logo3, Logo4 } from "../utils";
+import { Logo3, Logo5, Logo6, Logo7 } from "../utils";
 import { useNavigate } from "react-router-dom";
 
 const Logos = () => {
@@ -14,22 +14,22 @@ const Logos = () => {
         </div>
         <div className="mt-5 grid grid-cols-2 gap-4">
           <img
-            src={Logo1}
+            src={Logo3}
             alt="Logo 1"
             className="w-full h-auto object-cover rounded-lg"
           />
           <img
-            src={Logo2}
+            src={Logo7}
             alt="Logo 2"
             className="w-full h-auto object-cover rounded-lg"
           />
           <img
-            src={Logo3}
+            src={Logo5}
             alt="Logo 3"
             className="w-full h-auto object-cover rounded-lg"
           />
           <img
-            src={Logo4}
+            src={Logo6}
             alt="Logo 4"
             className="w-full h-auto object-cover rounded-lg"
           />

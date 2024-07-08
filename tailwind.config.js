@@ -10,7 +10,7 @@ export default {
         primary: "#000000",
         secondary: "#FFFFFF",
         third: "#2C2C2C",
-        ascent: "#ff6b00",
+        ascent: "#00c3b2",
       },
     },
   },
